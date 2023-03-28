@@ -445,13 +445,10 @@ section {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap-reverse;
-    align-items: end;
 
 }
 
 .footer .sub div {
-    width: 100%;
-    text-align: center;
     margin-bottom: 1rem;
 }
 
@@ -659,7 +656,11 @@ section {
 
     .footer .main .footer-info {
         flex-wrap: wrap;
+    }
 
+    .footer .sub div {
+        width: 100%;
+        text-align: center;
     }
 }
 
